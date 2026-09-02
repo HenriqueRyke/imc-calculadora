@@ -1,0 +1,42 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: linear-gradient(180deg, #0e1420 0%, #101827 100%);
+  color: #e8eef7;
+  font-family: var(--font-geist-sans);
+}
+
+.card {
+  width: min(100%, 720px);
+  background: rgba(22, 30, 46, 0.9);
+  border: 1px solid #2a3752;
+  border-radius: 20px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.25);
+  padding: 2.5rem;
+}
+
+.eyebrow {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #74c2e8;
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.card h1 {
+  margin-bottom: 1rem;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.1;
+}
+
+.texto {
+  max-width: 48ch;
+  color: #93a3ba;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
