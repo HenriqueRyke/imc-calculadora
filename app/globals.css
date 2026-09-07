@@ -1,14 +1,5 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+:root { --background: #0e1420; --foreground: #e8eef7; }
+[data-theme="light"] { --background: #f2f6fb; --foreground: #1d2838; }
 
 html {
   height: 100%;
